@@ -3,7 +3,7 @@
 /* eslint-disable no-undef */
 document.addEventListener("DOMContentLoaded", function () {
   // Слайдер с партнерами
-  var swiperNews = new Swiper(".projects__swiper", {
+  var projectSwiper = new Swiper(".projects__swiper", {
     slidesPerView: 1.1,
     spaceBetween: 10,
     speed: 300,
